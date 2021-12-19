@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "633359476223",
+    "project_id": "spoterf-a04eb",
+    "storage_bucket": "spoterf-a04eb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:633359476223:android:77860b1ad52ad31c1033ca",
+        "android_client_info": {
+          "package_name": "com.example.freespotify"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "633359476223-id8od8oq34gcmomjv2rmh9qkgcp04tui.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.freespotify",
+            "certificate_hash": "15a3c030f651ee7f03788ac65cab5b90874ba798"
+          }
+        },
+        {
+          "client_id": "633359476223-c9r45sqiagtp8bu3v4d64pqa8en6450f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqRhGmVwKAklVfGa_Y9VzI36d6GmGpe2Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "633359476223-c9r45sqiagtp8bu3v4d64pqa8en6450f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

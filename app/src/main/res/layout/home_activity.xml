@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home"
+    android:background="@drawable/black_gradient_background">
+
+    <TextView
+        android:id="@+id/enjoyTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ENJOY"
+        android:textColor="@color/white"
+        android:fontFamily="@font/aldo"
+        android:textSize="90sp"
+        android:layout_marginLeft="30dp"
+        android:paddingTop="70dp"/>
+
+    <TextView
+        android:id="@+id/unlimited_music"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="unlimited music"
+        android:textColor="@color/white"
+        android:fontFamily="@font/aldo"
+        android:textSize="25sp"
+        android:layout_marginLeft="30dp"
+        android:layout_below="@id/enjoyTxt"/>
+
+    <TextView
+        android:id="@+id/join_contest_btn"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/unlimited_music"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:background="@drawable/green_rounded_background"
+        android:fontFamily="@font/aldo"
+        android:gravity="center"
+
+        android:text="Join Contest"
+        android:textColor="@color/white"
+        android:textSize="25sp" />
+
+    <ListView
+        android:id="@+id/musics_listview"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:layout_below="@+id/join_contest_btn"
+        android:layout_alignParentBottom="true"
+        android:foregroundGravity="bottom"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"/>
+
+    <ImageView
+        android:id="@+id/menu_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_margin="8dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/menu_icon"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:orientation="vertical"
+        android:layout_marginLeft="250dp"
+        android:layout_below="@+id/menu_btn">
+
+        <TextView
+            android:id="@+id/sign_out_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sign Out"
+            android:fontFamily="@font/aldo"
+            android:textSize="18sp"
+            android:textColor="@color/cyan"
+            android:gravity="center"
+            android:padding="8dp"
+            android:background="@drawable/custom_input"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/newContestItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/custom_input"
+            android:fontFamily="@font/aldo"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="New Contest"
+            android:textColor="@color/cyan"
+            android:textSize="18sp"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/closeMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/confirm_background"
+            android:fontFamily="@font/aldo"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="Close Menu"
+            android:textColor="@color/spoterfWhite"
+            android:textSize="18sp"
+            android:visibility="gone"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

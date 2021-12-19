@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/spotify_black_rounded"
+    android:padding="30dp">
+
+    <TextView
+        android:id="@+id/you_have_won"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="You Have Won \nThis Contest"
+        android:fontFamily="@font/great_vibes"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:textColor="@color/spoterfWhite"
+        android:shadowColor="@color/spoterfWhite"
+        android:shadowRadius="10"
+        />
+
+    <TextView
+        android:id="@+id/contest_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/you_have_won"
+        android:text="Contest Name"
+        android:textColor="@color/spoterfWhite"
+        android:fontFamily="@font/lato_light_italic"
+        android:gravity="center"
+        android:layout_marginTop="60dp"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/winnerTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WINNER"
+        android:textColor="@color/spoterfWhite"
+        android:layout_below="@id/contest_name"
+        android:gravity="center"
+        android:textSize="40dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/aldo"/>
+
+    <TextView
+        android:id="@+id/winnerName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="user full name"
+        android:textColor="@color/spoterfWhite"
+        android:layout_below="@id/winnerTxt"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:layout_marginTop="1dp"
+        android:fontFamily="@font/great_vibes"/>
+</RelativeLayout>
